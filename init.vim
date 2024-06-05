@@ -4,17 +4,25 @@ filetype plugin indent on
 " Turn syntax highlighting on.
 syntax on
 
+" For å skrive penere:
 set backspace=indent,eol,start  " backspace like you would expect
 set wrap                        " use word wrapping
 set linebreak                   " wrap at word bounds
 set nolist                      " do not show whitespace characters
 
 
-" Add numbers to each line on the left-hand side.
+" Setter hybride nummer - altså nummer for denne linjen + relative
 set number relativenumber
+
+" Merker linje og kolonne
+set cursorline
+" set cursorcolumn
 
 " Use highlighting when doing a search.
 set hlsearch
+
+" Ignore capital letters during search.
+set ignorecase
 
 " Mapper jj til esc
 inoremap jj <esc>
@@ -60,6 +68,9 @@ Plug 'junegunn/limelight.vim'
 
 " Fuzzysøk etter filer
 Plug 'ctrlpvim/ctrlp.vim'
+
+" Fil-tre
+Plug 'preservim/nerdtree'
 
 " If you don't have nodejs and yarn
 " use pre build, add 'vim-plug' to the filetype list so vim-plug can update this plugin
