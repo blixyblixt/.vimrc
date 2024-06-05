@@ -72,6 +72,11 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Fil-tre
 Plug 'preservim/nerdtree'
 
+" Pandoc + highlighting
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+
+
 " If you don't have nodejs and yarn
 " use pre build, add 'vim-plug' to the filetype list so vim-plug can update this plugin
 " see: https://github.com/iamcco/markdown-preview.nvim/issues/50
