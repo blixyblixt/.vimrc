@@ -4,12 +4,17 @@ filetype plugin indent on
 " Turn syntax highlighting on.
 syntax on
 
+" Setter leader til komma
+let mapleader=","
+
 " For å skrive penere:
 set backspace=indent,eol,start  " backspace like you would expect
 set wrap                        " use word wrapping
 set linebreak                   " wrap at word bounds
 set nolist                      " do not show whitespace characters
 
+" Skrur av velkomstvindu
+set shortmess+=I " Read :help shortmess for everything else.
 
 " Setter hybride nummer - altså nummer for denne linjen + relative
 set number relativenumber
