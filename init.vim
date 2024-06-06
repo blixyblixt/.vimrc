@@ -4,6 +4,9 @@ filetype plugin indent on
 " Turn syntax highlighting on.
 syntax on
 
+" Setter leader til komma
+let mapleader=","
+
 " For å skrive penere:
 set backspace=indent,eol,start  " backspace like you would expect
 set wrap                        " use word wrapping
